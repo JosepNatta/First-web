@@ -1,0 +1,178 @@
+@import url(variables.css);
+html {
+  font-size: 16px;
+}
+
+main {
+  background: #21222C;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+}
+main hr {
+  background-color: coral;
+  border-radius: 6px;
+  color: transparent;
+  height: 1px;
+  width: 90%;
+}
+main .education {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main .education .tittle {
+  color: coral;
+  font-size: 1rem;
+}
+main .education .nombre_estudios {
+  color: #fff;
+  font-size: small;
+}
+main .skills {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+main .skills .arrow {
+  background-color: coral;
+  border-radius: 5px;
+  height: auto;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 40px;
+}
+main .skills .skill_tittle {
+  font-size: xx-large;
+  color: coral;
+  text-align: center;
+}
+main .skills .skill_type {
+  color: coral;
+  font-size: medium;
+  text-align: center;
+}
+main .skills .list {
+  display: flex;
+  gap: 18%;
+  justify-content: center;
+  color: #fff;
+  border-radius: 7px;
+  border-width: 3px;
+  border-color: coral;
+  border-style: solid;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main .skills .programas {
+  margin-top: 60px;
+}
+main .skills .programas .softwareList {
+  color: #fff;
+  border-radius: 7px;
+  border-width: 3px;
+  border-color: coral;
+  border-style: solid;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main .skills .teamwork_tools {
+  margin-bottom: 32px;
+  margin-top: 60px;
+}
+main .skills .teamwork_tools .tools_list {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+main .portfolio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+main .portfolio .my_projects {
+  color: coral;
+  font-size: 1.5625rem;
+  font-weight: 400;
+}
+main .portfolio .gallery {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .portfolio .gallery .this_web {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+  height: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 80%;
+}
+main .portfolio .gallery .this_web .gith {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+}
+main .portfolio .gallery .this_web .lista_Ingredientes {
+  margin-bottom: 20px;
+}
+main .portfolio .gallery .this_web .lista_Ingredientes .Ingredientes {
+  border-color: coral;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  color: #fff;
+  height: auto;
+  margin-bottom: 10px;
+  width: 80%;
+}
+main .portfolio .gallery .fotografia {
+  height: auto;
+  width: 80%;
+}
+main .contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+main .contact .contactTittle {
+  color: coral;
+  font-size: 1.5rem;
+  text-align: center;
+}
+main .contact .contactTittle .metodo_Contacto {
+  justify-content: left;
+  display: flex;
+}
+main .contact .contactTittle .metodo_Contacto .metodo_Contacto_Sup {
+  align-content: center;
+  align-items: center;
+  color: coral;
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+}
+main .contact .contactTittle .metodo_Contacto .metodo_Contacto_Sup span {
+  color: coral;
+  background-color: coral;
+  display: flex;
+}
+main .contact .contactTittle .metodo_Contacto .enlace_Contacto {
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
